@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height:100vh;
+}
+@font-face {
+    font-family: "intel";
+    src: url("fonts/Inter-Bold.ttf");
+}
+.img1{
+    width: 435px;
+    height: 254px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1 ;
+    
+}
+.img2{
+    width: 558px;
+    height: 254px;
+    position: absolute;
+    top: 0;
+    left:371px;
+    z-index: 0;
+}
+.img3{
+    width: 421px;
+    height: 254px;
+    position: absolute;
+    top: 0;
+    left: 859px;
+    z-index: 1;
+
+}
+.p1{
+    width: 538px;
+    height: 59px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    position:absolute;
+    top: 185px;
+    left: 391px;
+    z-index: 45;
+
+}
